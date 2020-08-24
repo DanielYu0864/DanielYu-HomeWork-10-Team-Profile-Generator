@@ -18,7 +18,7 @@
 * `npm i` (or `npm install`)
 ```
 
-![install](./Assets/git/install.gif)
+![install](./Assets/gif/install.gif)
 
 ### Usage
 
@@ -70,7 +70,7 @@
 * `npm run test`
 ```
 
-![test](./Assets/git/test.gif)
+![test](./Assets/gif/test.gif)
 
 ## About
 * Project Github: https://github.com/DanielYu0864/DanielYu-HomeWork-10-Team-Profile-Generator
