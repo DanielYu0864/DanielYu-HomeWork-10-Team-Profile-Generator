@@ -44,7 +44,7 @@
 
 ![Intern](./Assets/gif/intern.gif)
 
-* Ouput
+* Output
 
 ![screenshot](./Assets/screenshot/myTeam.png)
 
@@ -55,6 +55,9 @@
 - Make sure the email is correct
 
 ![Email](./Assets/gif/email.gif)
+
+- The output employee summary html is in the `output` folder
+[`team.html`](./Develop/output/team.html)
 
 
 ### Language
