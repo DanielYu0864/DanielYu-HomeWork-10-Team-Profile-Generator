@@ -6,15 +6,12 @@ const path = require("path");
 const fs = require("fs");
 const util = require("util");
 
-const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
-const appendFileAsync = util.promisify(fs.appendFile);
 
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
-const { stringify } = require("querystring");
 
 
 
@@ -96,7 +93,7 @@ async function start() {
                     email = data.email;
                 });
 
-        // prompt qusetion basic on position
+        // prompt qusetion basic on position (by using switch)
         switch(role) {
             case "engineer":
 
@@ -110,8 +107,8 @@ async function start() {
                 .then(data => {
                     const engineer = new Engineer(name, id, email, data.github);
                     console.log(engineer);
-                    const internHtml = render(engineer);
-                    htmlRenderer = htmlRenderer + "\n" + eval("`" + internHtml + "`");
+                    const engineerHtml = render(engineer);
+                    htmlRenderer = htmlRenderer + "\n" + eval("`" + engineerHtml + "`");
                 });
                 break;
             case "intern":
@@ -143,8 +140,8 @@ async function start() {
                 .then(data => {
                     const manager = new Manager(name, id, email, data.officeNumber);
                     console.log(manager);
-                    const internHtml = render(manager);
-                    htmlRenderer = htmlRenderer + "\n" + eval("`" + internHtml + "`");
+                    const managerHtml = render(manager);
+                    htmlRenderer = htmlRenderer + "\n" + eval("`" + managerHtml + "`");
 
                 });
                 break;
