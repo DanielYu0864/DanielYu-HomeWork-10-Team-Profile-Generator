@@ -18,43 +18,43 @@
 * `npm i` (or `npm install`)
 ```
 
-![install](../Assets/git/install.gif)
+![install](./Assets/git/install.gif)
 
 ### Usage
 
 1. `node app.js`
 
-![node app.js](../Assets/gif/nodeappjs.gif)
+![node app.js](./Assets/gif/nodeappjs.gif)
 
 2. input the number of team member
 
-![team member](../Assets/gif/teammember.gif)
+![team member](./Assets/gif/teammember.gif)
 
 3. input the member information
 
 * Manager
 
-![Manager](../Assets/gif/manager.gif)
+![Manager](./Assets/gif/manager.gif)
 
 * Engineer
 
-![Engineer](../Assets/gif/engineer.gif)
+![Engineer](./Assets/gif/engineer.gif)
 
 * Intern
 
-![Intern](../Assets/gif/intern.gif)
+![Intern](./Assets/gif/intern.gif)
 
 * Ouput
 
-![screenshot](../Assets/screenshot/myTeam.png)
+![screenshot](./Assets/screenshot/myTeam.png)
 
 * Each role
 
-![screenshot](../Assets/screenshot/role.png)
+![screenshot](./Assets/screenshot/role.png)
 
 - Make sure the email is correct
 
-![Email](../Assets/gif/email.gif)
+![Email](./Assets/gif/email.gif)
 
 
 ### Language
@@ -70,10 +70,10 @@
 * `npm run test`
 ```
 
-![test](../Assets/git/test.gif)
+![test](./Assets/git/test.gif)
 
 ## About
-* Project Github: https://github.com/DanielYu0864/DanielYu-HomeWork-9-Good-README-Generator
+* Project Github: https://github.com/DanielYu0864/DanielYu-HomeWork-10-Team-Profile-Generator
 * Author: [`DanielYu0864`](https://github.com/DanielYu0864)
 
 ## Questions
